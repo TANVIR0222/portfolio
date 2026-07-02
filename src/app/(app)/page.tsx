@@ -1,15 +1,18 @@
-import type { Metadata } from "next"
+import type { Metadata } from "next";
 
-import { Experiences } from "@/features/portfolio/components/experiences"
-import { GitHubContributions } from "@/features/portfolio/components/github-contributions"
-import { Hello } from "@/features/portfolio/components/hello"
-import { Overview } from "@/features/portfolio/components/overview"
-import { ProfileHeader } from "@/features/portfolio/components/profile-header"
-import { Projects } from "@/features/portfolio/components/projects"
-import { ScrollProgress } from "@/features/portfolio/components/scroll-progress"
-import { SocialLinks } from "@/features/portfolio/components/social-links"
-import { TechStack } from "@/features/portfolio/components/tech-stack"
-import { cn } from "@/lib/utils"
+import { Education } from "@/features/portfolio/components/education";
+
+import { Certifications } from "@/features/portfolio/components/certifications";
+import { Experiences } from "@/features/portfolio/components/experiences";
+import { GitHubContributions } from "@/features/portfolio/components/github-contributions";
+import { Hello } from "@/features/portfolio/components/hello";
+import { Overview } from "@/features/portfolio/components/overview";
+import { ProfileHeader } from "@/features/portfolio/components/profile-header";
+import { Projects } from "@/features/portfolio/components/projects";
+import { ScrollProgress } from "@/features/portfolio/components/scroll-progress";
+import { SocialLinks } from "@/features/portfolio/components/social-links";
+import { TechStack } from "@/features/portfolio/components/tech-stack";
+import { cn } from "@/lib/utils";
 
 export const metadata: Metadata = {
   alternates: {
@@ -47,7 +50,13 @@ export default function HomePage() {
           <TechStack />
           <Separator />
 
+          <Education />
+          <Separator />
+
           <Projects />
+          <Separator />
+
+          <Certifications />
           <Separator />
 
           {/* 
