@@ -1,11 +1,10 @@
 "use client"
 
 import {
-  motion,
-  useMotionValue,
-  useReducedMotion,
-  useSpring,
-} from "motion/react"
+    useMotionValue,
+    useReducedMotion,
+    useSpring
+} from "motion/react";
 
 const VIEWBOX_WIDTH = 1410
 const DEFAULT_GRADIENT_X = 705
@@ -47,42 +46,8 @@ export function SiteFooterInteractiveLogotype() {
         onMouseLeave={handleMouseLeave}
       >
         <div className="flex w-full translate-y-[37.5%] items-center justify-center">
-          <svg
-            className="container size-full"
-            viewBox="0 0 1410 258"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fillRule="evenodd"
-              clipRule="evenodd"
-              d="M193 1h160v32h-160ZM257 33h32v224h-32ZM385 33h32v224h-32ZM513 33h32v224h-32ZM385 1h160v32h-160ZM417 129h96v32h-96ZM577 1h32v256h-32ZM705 1h32v256h-32ZM609 33h32v64h-32ZM641 97h32v64h-32ZM673 161h32v64h-32ZM769 1h32v160h-32ZM897 1h32v160h-32ZM801 161h32v64h-32ZM865 161h32v64h-32ZM833 225h32v32h-32ZM961 1h160v32h-160ZM961 225h160v32h-160ZM1025 33h32v192h-32ZM1153 1h32v256h-32ZM1185 1h96v32h-96ZM1281 33h32v96h-32ZM1185 129h96v32h-96ZM1217 161h32v32h-32ZM1249 193h32v32h-32ZM1281 225h32v32h-32Z"
-              fill="url(#paint0_linear_1145_73)"
-            />
-            <path
-              className="stroke-foreground/10"
-              d="M193 1h160v32h-160ZM257 33h32v224h-32ZM385 33h32v224h-32ZM513 33h32v224h-32ZM385 1h160v32h-160ZM417 129h96v32h-96ZM577 1h32v256h-32ZM705 1h32v256h-32ZM609 33h32v64h-32ZM641 97h32v64h-32ZM673 161h32v64h-32ZM769 1h32v160h-32ZM897 1h32v160h-32ZM801 161h32v64h-32ZM865 161h32v64h-32ZM833 225h32v32h-32ZM961 1h160v32h-160ZM961 225h160v32h-160ZM1025 33h32v192h-32ZM1153 1h32v256h-32ZM1185 1h96v32h-96ZM1281 33h32v96h-32ZM1185 129h96v32h-96ZM1217 161h32v32h-32ZM1249 193h32v32h-32ZM1281 225h32v32h-32Z"
-              strokeWidth="2"
-            />
-            <defs>
-              <motion.linearGradient
-                id="paint0_linear_1145_73"
-                x1={gradientX1}
-                y1="1"
-                x2="705"
-                y2="257"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop
-                  offset="0.625"
-                  stopColor="var(--foreground)"
-                  stopOpacity="0"
-                />
-                <stop offset="1" stopColor="var(--foreground)" />
-              </motion.linearGradient>
-            </defs>
-          </svg>
-        </div>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 9.470000267028809 177.8300018310547 35.78999710083008" data-asc="0.9052734375" width="177.8300018310547" height="35.78999710083008"><defs/><g fill="#000000"><g transform="translate(0, 0)"><path d="M11.79 45.26L11.79 13.70L0 13.70L0 9.47L28.37 9.47L28.37 13.70L16.53 13.70L16.53 45.26L11.79 45.26ZM25.59 45.26L39.33 9.47L44.43 9.47L59.08 45.26L53.69 45.26L49.51 34.42L34.55 34.42L30.62 45.26L25.59 45.26M35.91 30.57L48.05 30.57L44.31 20.65Q42.60 16.14 41.77 13.23Q41.09 16.67 39.84 20.07L35.91 30.57ZM62.82 45.26L62.82 9.47L67.68 9.47L86.47 37.57L86.47 9.47L91.02 9.47L91.02 45.26L86.16 45.26L67.36 17.14L67.36 45.26L62.82 45.26ZM109.20 45.26L95.34 9.47L100.46 9.47L109.77 35.47Q110.89 38.60 111.65 41.33Q112.48 38.40 113.57 35.47L123.24 9.47L128.08 9.47L114.06 45.26L109.20 45.26ZM133.13 45.26L133.13 9.47L137.87 9.47L137.87 45.26L133.13 45.26ZM146.29 45.26L146.29 9.47L162.16 9.47Q166.94 9.47 169.43 10.44Q171.92 11.40 173.41 13.84Q174.90 16.28 174.90 19.24Q174.90 23.05 172.44 25.66Q169.97 28.27 164.82 28.98Q166.70 29.88 167.68 30.76Q169.75 32.67 171.61 35.52L177.83 45.26L171.88 45.26L167.14 37.82Q165.06 34.59 163.72 32.89Q162.38 31.18 161.32 30.49Q160.25 29.81 159.16 29.54Q158.35 29.37 156.52 29.37L151.03 29.37L151.03 45.26L146.29 45.26M151.03 25.27L161.21 25.27Q164.45 25.27 166.28 24.60Q168.12 23.93 169.07 22.45Q170.02 20.97 170.02 19.24Q170.02 16.70 168.18 15.06Q166.33 13.43 162.35 13.43L151.03 13.43L151.03 25.27Z"/></g></g></svg>
+</div>
       </div>
 
       <div

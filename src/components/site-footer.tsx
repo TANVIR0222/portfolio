@@ -1,9 +1,7 @@
-import { DmcaIcon, GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons"
-import { LICENSE, SOURCE_CODE_GITHUB_URL } from "@/config/site"
-import { SOCIAL } from "@/features/portfolio/data/social-links"
-import { USER } from "@/features/portfolio/data/user"
-import { cn } from "@/lib/utils"
-import { SiteFooterInteractiveLogotype } from "./site-footer-brand"
+import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { SOCIAL } from "@/features/portfolio/data/social-links";
+import { USER } from "@/features/portfolio/data/user";
+import { cn } from "@/lib/utils";
 
 export function SiteFooter() {
   const xLink = SOCIAL.x
@@ -31,19 +29,17 @@ export function SiteFooter() {
               </a>
             </dd>
           </Item>
-
           <Item>
             <dt>Inspired by</dt>
             <dd>
-              <ul>
-                <li>Tailwind CSS</li>
-                <li>shadcn/ui</li>
-                <li>Vercel</li>
-                <li>Evil Charts</li>
-                <li>Devouring Details</li>
-                <li>Skiper UI</li>
-                <li>Making Software</li>
-              </ul>
+              <a
+                className="link-underline"
+                href={'https://chanhdai.com'}
+                target="_blank"
+                rel="noopener"
+              >
+                chanhdai
+              </a>
             </dd>
           </Item>
 
@@ -59,34 +55,6 @@ export function SiteFooter() {
                 <li>OpenPanel</li>
                 <li>PostHog</li>
               </ul>
-            </dd>
-          </Item>
-
-          <Item>
-            <dt>Source code</dt>
-            <dd>
-              <a
-                className="link-underline"
-                href={SOURCE_CODE_GITHUB_URL}
-                target="_blank"
-                rel="noopener"
-              >
-                GitHub
-              </a>
-            </dd>
-          </Item>
-
-          <Item>
-            <dt>License</dt>
-            <dd>
-              <a
-                className="link-underline"
-                href={LICENSE.url}
-                target="_blank"
-                rel="noopener"
-              >
-                {LICENSE.name}
-              </a>
             </dd>
           </Item>
         </dl>
@@ -127,30 +95,11 @@ export function SiteFooter() {
               <LinkedInIcon className="size-4" />
             </a>
 
-            <Separator />
-
-            <a
-              className="flex text-muted-foreground transition-[color] hover:text-foreground"
-              href={
-                process.env.NEXT_PUBLIC_DMCA_URL ||
-                "https://www.dmca.com/ProtectionPro.aspx"
-              }
-              target="_blank"
-              rel="noopener"
-              aria-label="DMCA.com Protection Status"
-            >
-              <DmcaIcon className="h-4.5 w-auto" />
-            </a>
           </div>
         </div>
-
-        {/* <div className="*:absolute *:z-2 *:flex *:size-2 *:border *:border-line *:bg-background">
-          <div className="bottom-[-3.5px] left-[-4.5px]" />
-          <div className="right-[-4.5px] bottom-[-3.5px]" />
-        </div> */}
       </div>
 
-      <SiteFooterInteractiveLogotype />
+      {/* <SiteFooterInteractiveLogotype /> */}
 
       <div className="h-(--fade-bottom-height)" />
       <div className="pb-[env(safe-area-inset-bottom,0)]" />
