@@ -1,6 +1,6 @@
-import { CodeXmlIcon } from "lucide-react"
+import { CodeXmlIcon } from "lucide-react";
 
-import type { Experience } from "../types/experiences"
+import type { Experience } from "../types/experiences";
 
 export const EXPERIENCES: Experience[] = [
   {
@@ -95,58 +95,42 @@ export const EXPERIENCES: Experience[] = [
   //     ],
   //     isCurrentEmployer: true,
   //   },
-  //   {
-  //     id: "simplamo",
-  //     companyName: "Simplamo",
-  //     companyLogo: "https://assets.chanhdai.com/images/companies/simplamo.webp",
-  //     positions: [
-  //       {
-  //         id: "2",
-  //         title: "Senior Frontend Developer",
-  //         employmentPeriod: {
-  //           start: "10.2022",
-  //           end: "01.2026",
-  //         },
-  //         employmentType: "Full-time",
-  //         icon: <CodeXmlIcon />,
-  //         description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
-  // - Developed [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
-  // - Developed [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
-  // - Built and maintained the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
-  // - Developed interactive chart and analytics widgets for the [Dashboard](https://help.simplamo.com/features/dashboard/overview) to enhance data visualization.
-  // - Developed and maintained core features to enhance functionality and user experience.
-  // - Ensured UI/UX consistency and adherence to standards.
-  // - Implemented robust frontend solutions for web and mobile platforms.
-  // - Analyzed technical capabilities and provided optimal solutions.`,
-  //         skills: [
-  //           "TypeScript",
-  //           "Next.js",
-  //           "React Native",
-  //           "MobX",
-  //           "MobX-State-Tree",
-  //           "Tailwind CSS",
-  //           "Dify",
-  //           "Zalo Mini App",
-  //           "Agile",
-  //           "Teamwork",
-  //           "Research",
-  //           "Problem-solving",
-  //         ],
-  //       },
-  //       {
-  //         id: "1",
-  //         title: "UI Lead",
-  //         employmentPeriod: {
-  //           start: "10.2022",
-  //           end: "01.2026",
-  //         },
-  //         employmentType: "Full-time",
-  //         icon: <DraftingCompassIcon />,
-  //         description: `- Ensured UI/UX consistency and high-quality standards.
-  // - Designed intuitive, user-focused interfaces aligned with business goals.
-  // - Defined and established a cohesive UI style for Simplamo.`,
-  //         skills: ["Creativity", "UI/UX Design", "Figma"],
-  //       },
-  //     ],
-  //   },
+    {
+      id: "softvence-agency",
+      companyName: "Softvence Agency",
+      companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5F_-X1-Zjj2aZBRglKPE_JZRBNkBRmmABaeZNp3jt0aBi_Z29rCN9y8&s=10",
+      positions: [
+        {
+          id: "2",
+          title: "Intern Frontend Developer",
+          employmentPeriod: {
+            start: "03.2025",
+            end: "05.2025",
+          },
+          employmentType: "Intern",
+          icon: <CodeXmlIcon />,
+          description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
+  - Developed [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
+  - Developed [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
+  - Built and maintained the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
+  - Developed interactive chart and analytics widgets for the [Dashboard](https://help.simplamo.com/features/dashboard/overview) to enhance data visualization.
+  - Developed and maintained core features to enhance functionality and user experience.
+  - Ensured UI/UX consistency and adherence to standards.
+  - Implemented robust frontend solutions for web and mobile platforms.
+  - Analyzed technical capabilities and provided optimal solutions.`,
+          skills: [
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "React",
+            "webFlow",
+            "Web Design",
+            "Web Development",
+           
+            "Problem-solving",
+          ],
+        }
+      
+      ],
+    },
 ]
