@@ -1,4 +1,4 @@
-import type { User } from "@/features/portfolio/types/user"
+import type { User } from "@/features/portfolio/types/user";
 
 export const USER: User = {
   firstName: "Tamvir",
@@ -10,10 +10,8 @@ export const USER: User = {
   bio: "Creating with code. Small details matter.",
   flipSentences: [
     "Creating with code. Small details matter.",
-    "Full Stack Developer",
-    "Mobile App Developer",
-    "Web Developer",
-    "Open Source Contributor",
+    "Full Stack Developer | Web & Mobile Applications",
+    "Gan Ai Developer",
   ],
   address: "Dhaka City, Bangladesh",
   phoneNumberB64: "Kzg4MDE2MzkxMjUwMTI=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
@@ -27,18 +25,18 @@ export const USER: User = {
       website: "https://www.sparktech.agency",
       experienceId: "sparktech",
     },
-    {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
-      experienceId: "quaric",
-    },
+    // {
+    //   title: "Founder",
+    //   company: "Quaric",
+    //   website: "https://quaric.com",
+    //   experienceId: "quaric",
+    // },
   ],
-  about: `I’m Tanvir Islam (call me Tanvir) — a Mobile App Developer with 1+ years of experience, known for pixel-perfect execution and an obsessive attention to detail.
+  about: `I’m Tanvir Islam (call me Tanvir) — a Mobile App Developer with 1+ years of experience. Published 3 mobile apps on the Google Play Store and Apple App Store, serving 30+ paid users with daily active usage..
 
-  Passionate about building intuitive, high-performance mobile apps with clean, maintainable code and seamless cross-platform experiences.
+ I'm currently working on app architecture, performance optimization, and creating React Native (Expo) apps with a native-like UI and user experience.
   
-Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted projects.
+ Passionate about exploring new technologies and turning ideas into reality through polished, thoughtfully crafted projects.
 
 
 `,
