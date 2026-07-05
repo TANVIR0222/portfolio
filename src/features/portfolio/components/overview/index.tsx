@@ -1,11 +1,4 @@
-import { urlToName } from "@/utils/url"
-import {
-  LinkIcon,
-  MapPinIcon,
-  MarsIcon,
-  NonBinaryIcon,
-  VenusIcon,
-} from "lucide-react"
+import { MapPinIcon, MarsIcon, NonBinaryIcon, VenusIcon } from "lucide-react"
 
 import { USER } from "@/features/portfolio/data/user"
 import type { User } from "@/features/portfolio/types/user"
@@ -60,7 +53,7 @@ export function Overview() {
 
         <EmailItem emailB64={USER.emailB64} />
 
-        <IntroItem>
+        {/* <IntroItem>
           <IntroItemIcon>
             <LinkIcon />
           </IntroItemIcon>
@@ -72,7 +65,7 @@ export function Overview() {
               {urlToName(USER.website)}
             </IntroItemLink>
           </IntroItemContent>
-        </IntroItem>
+        </IntroItem> */}
 
         <IntroItem>
           <IntroItemIcon>{getGenderIcon(USER.gender)}</IntroItemIcon>
