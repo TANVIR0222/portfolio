@@ -1,4 +1,4 @@
-import type { Education } from "@/features/portfolio/types/education";
+import type { Education } from "@/features/portfolio/types/education"
 
 export const EDUCATION: Education[] = [
   {
@@ -8,7 +8,7 @@ export const EDUCATION: Education[] = [
     fieldOfStudy: "Artificial Intelligence (AI)",
     period: {
       start: "08.2025",
-    //   end: "08.2026",
+      //   end: "08.2026",
     },
     description: `- Currently studying for a Bachelor’s degree in Artificial Intelligence.
 - Language Proficiency: B1 level in English (CEFR).
@@ -26,11 +26,11 @@ export const EDUCATION: Education[] = [
   },
   {
     id: "chuyenlytutrong",
-    school: "Ly Tu Trong High School for the Gifted",
-    fieldOfStudy: "Computer Science",
+    school: "CPI Management & Technology ",
+    fieldOfStudy: "Diploma in Computer Science",
     period: {
-      start: "08.2015",
-      end: "06.2018",
+      start: "01.2020",
+      end: "01.2024",
     },
     description: `- Student of the Specialized Computer Science Program.
 - Granted direct admission to university due to achieving 3rd Prize at the national level.
@@ -47,30 +47,6 @@ export const EDUCATION: Education[] = [
 - Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
 - Developed websites based on Laravel framework.
 - Built websites with PHP and MySQL, following the MVC architecture.`,
-    skills: [
-      "Algorithms",
-      "C++",
-      "PHP",
-      "MySQL",
-      "Laravel",
-      "Node.js",
-      "Pandoc",
-    ],
-  },
-  {
-    id: "thcsthuanhung",
-    school: "Thuan Hung Secondary School",
-    period: {
-      start: "08.2011",
-      end: "06.2015",
-    },
-    description: `- Recognized as the most outstanding student of the district.
-- Achieved numerous awards at city and national levels:
-  - Consolation Prize — National Young Informatics Contest 2015
-  - Consolation Prize — National Young Informatics Contest 2014
-  - 1st Prize — Can Tho City Young Informatics Contest 2014
-- Achieved the title of Outstanding Student from Grade 6-9.
-- Developed websites using the open-source NukeViet CMS.`,
-    skills: ["Pascal", "HTML", "CSS", "JavaScript", "NukeViet"],
+    skills: ["Java", "C#", "React", "Node.js", "Next.js", "MySQL", "SQL"],
   },
 ]
