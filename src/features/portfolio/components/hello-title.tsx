@@ -20,7 +20,8 @@ export function HelloTitle() {
   return (
     <>
       <PanelTitle id={`${ID}-greeting`} suppressHydrationWarning>
-        {greeting}
+        {/* {greeting} */}
+        Hello 🙋🏼‍♂️
       </PanelTitle>
 
       <InlineScript html={getInlineScript(`${ID}-greeting`)} />
