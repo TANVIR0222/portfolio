@@ -75,6 +75,39 @@ Kalamari)
     isExpanded: false,
   },
   {
+    id: "bala_20_outside",
+    title: "20Outside",
+    period: {
+      start: "06.2026",
+      // end: "05.2026",
+    },
+    link: "https://apps.apple.com/us/app/kalamari/id6751039445",
+    skills: [
+      "Expo",
+      "React Native",
+      "TypeScript",
+      "pnpm-workspace",
+      "Kotlin (Android)",
+      "Swift (iOS)",
+      "Redux Toolkit (State Management)",
+      "Tailwind CSS (twrnc)",
+      "React Native Reanimated",
+      "React Native MMKV",
+      "Formik & Yup (Form Validation)",
+      "Jest & React Testing Library",
+      "ESLint & Prettier",
+      "Husky & Commitlint",
+      "React Native Gifted Charts",
+      "React Native Calendars",
+    ],
+
+    description: `It is designed to track outdoor walks, monitor step counts, record route locations using GPS, and manage active session times with an intelligent countdown timer and a screen-lock feature.](https://drive.google.com/file/d/1Ge6X97j5W1x2y0yvcHrBT0kD718AhqcC/view?usp=sharing
+20Outside)
+`,
+    logo: "https://i.ibb.co.com/33Mpqh8/Logo.png",
+    isExpanded: false,
+  },
+  {
     id: "rising-child-center",
     title: "Rising Child Center",
     period: {
