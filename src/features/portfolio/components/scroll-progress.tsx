@@ -1,10 +1,10 @@
 "use client"
 
-import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
+import { useTheme } from "next-themes"
 
-import { ThemeToggle } from "@/components/theme-toggle"
 import { cn } from "@/lib/utils"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 export function ScrollProgress({ className }: { className?: string }) {
   const [progress, setProgress] = useState(0)
@@ -93,7 +93,9 @@ export function ScrollProgress({ className }: { className?: string }) {
               strokeLinecap="round"
               strokeDasharray={circumference}
               strokeDashoffset={dashOffset}
-              className="text-blue-500 transition-[stroke-dashoffset] duration-150"
+              className={`transition-[stroke-dashoffset] duration-150 ${
+                isDark ? "text-black" : "text-white"
+              }`}
             />
           </svg>
           {/* Percentage label inside circle */}
