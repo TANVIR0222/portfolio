@@ -13,7 +13,7 @@ export function HelloTitle() {
   // local greeting, which also covers client-side navigation (no inline script).
   const greeting = useSyncExternalStore(
     () => () => {},
-    getGreeting,
+    // getGreeting,
     () => SSR_TEXT
   )
 
