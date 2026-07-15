@@ -1,6 +1,6 @@
-import { CodeXmlIcon } from "lucide-react";
+import { CodeXmlIcon } from "lucide-react"
 
-import type { Experience } from "../types/experiences";
+import type { Experience } from "../types/experiences"
 
 export const EXPERIENCES: Experience[] = [
   {
@@ -19,10 +19,14 @@ export const EXPERIENCES: Experience[] = [
         employmentType: "Full-time",
         icon: <CodeXmlIcon />,
         description: `- Develop and maintain cross-platform mobile applications using React Native and Expo.
-- Build scalable, reusable, and production-ready UI components.
-- Integrate REST APIs and third-party services.
-- Optimize application performance and improve user experience.
-- Collaborate with designers and backend developers to deliver high-quality features.`,
+- Implemented an analytics infrastructure that allows understanding of user behavior with high accuracy and stays confidential for users.
+- Set up Detox E2E testing and integrated it with CI/CD and Genymotion. Set up E2E, linting, and a types check on pull request builds and daily pipelines.
+- Migrated CI/CD from GitHub Actions to Expo EAS Workflows for automated builds and OTA updates.
+- Monitored app performance with Sentry, Crashlytucs, and Shortcut.io.
+- Developed push notifications and Deeplink testing strategies for E2E and manual testing.
+- Defined automated and standardized app release procedures for app stores and over-the-air updates (CodePush).
+- Upgraded and refactored the app's basic mechanism, such as Redux store navigation, push notifications, and deep linking.
+`,
         skills: [
           "React Native",
           "Expo",
@@ -95,21 +99,22 @@ export const EXPERIENCES: Experience[] = [
   //     ],
   //     isCurrentEmployer: true,
   //   },
-    {
-      id: "softvence-agency",
-      companyName: "Softvence Agency",
-      companyLogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5F_-X1-Zjj2aZBRglKPE_JZRBNkBRmmABaeZNp3jt0aBi_Z29rCN9y8&s=10",
-      positions: [
-        {
-          id: "2",
-          title: "Intern Frontend Developer",
-          employmentPeriod: {
-            start: "03.2025",
-            end: "05.2025",
-          },
-          employmentType: "Intern",
-          icon: <CodeXmlIcon />,
-          description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
+  {
+    id: "softvence-agency",
+    companyName: "Softvence Agency",
+    companyLogo:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb5F_-X1-Zjj2aZBRglKPE_JZRBNkBRmmABaeZNp3jt0aBi_Z29rCN9y8&s=10",
+    positions: [
+      {
+        id: "2",
+        title: "Intern Frontend Developer",
+        employmentPeriod: {
+          start: "03.2025",
+          end: "05.2025",
+        },
+        employmentType: "Intern",
+        icon: <CodeXmlIcon />,
+        description: `- Built Tree & Gantt views features to improve goal organization, visibility, and progress tracking.
   - Developed [AI Chat](https://help.simplamo.com/features/simplamo-ai/ai-chat/guide_simplamo_ai_chat?ref=IN-926722) and [AI Assistant](https://help.simplamo.com/features/simplamo-ai/ai-expert/aiexpert-rockdiscribe?ref=IN-926722) features.
   - Developed [Whiteboards](https://help.simplamo.com/features/whiteboard/overview?ref=IN-926722) with real-time collaboration.
   - Built and maintained the [Zalo Mini App](https://zalo.me/s/1736112917405511258/) for Simplamo with seamless integration.
@@ -118,19 +123,18 @@ export const EXPERIENCES: Experience[] = [
   - Ensured UI/UX consistency and adherence to standards.
   - Implemented robust frontend solutions for web and mobile platforms.
   - Analyzed technical capabilities and provided optimal solutions.`,
-          skills: [
-            "JavaScript",
-            "HTML",
-            "CSS",
-            "React",
-            "webFlow",
-            "Web Design",
-            "Web Development",
-           
-            "Problem-solving",
-          ],
-        }
-      
-      ],
-    },
+        skills: [
+          "JavaScript",
+          "HTML",
+          "CSS",
+          "React",
+          "webFlow",
+          "Web Design",
+          "Web Development",
+
+          "Problem-solving",
+        ],
+      },
+    ],
+  },
 ]
