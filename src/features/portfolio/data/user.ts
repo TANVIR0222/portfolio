@@ -1,4 +1,4 @@
-import type { User } from "@/features/portfolio/types/user";
+import type { User } from "@/features/portfolio/types/user"
 
 export const USER: User = {
   firstName: "Tamvir",
@@ -16,7 +16,7 @@ export const USER: User = {
   address: "Dhaka City, Bangladesh",
   phoneNumberB64: "Kzg4MDE2MzkxMjUwMTI=", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
   emailB64: "dGFudmlyaXNsYW0zOTEyQGdtYWlsLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
+  website: process.env.NEXT_PUBLIC_APP_URL || "https://tanvirislam.dev",
   jobTitle: "Mobile App Developer",
   jobs: [
     {
