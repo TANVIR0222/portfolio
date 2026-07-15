@@ -14,6 +14,7 @@ export function HelloTitle() {
   const greeting = useSyncExternalStore(
     () => () => {},
     // getGreeting,
+    () => SSR_TEXT,
     () => SSR_TEXT
   )
 
