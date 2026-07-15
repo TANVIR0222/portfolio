@@ -1,16 +1,14 @@
 import "@/styles/globals.css"
 
 import type { Metadata, Viewport } from "next"
-import Script from "next/script"
 import { NuqsAdapter } from "nuqs/adapters/next/app"
 import type { WebSite, WithContext } from "schema-dts"
 
-import { Providers } from "@/components/providers"
 import { JSON_LD_ID, personJsonLd } from "@/config/json-ld"
 import { META_THEME_COLORS, SITE_INFO, X_HANDLE } from "@/config/site"
-import { USER } from "@/features/portfolio/data/user"
 import { fontVariables } from "@/lib/fonts"
-import { JsonLdScript } from "@/lib/json-ld"
+import { Providers } from "@/components/providers"
+import { USER } from "@/features/portfolio/data/user"
 
 function getWebSiteJsonLd(): WithContext<WebSite> {
   return {
@@ -77,31 +75,6 @@ export const metadata: Metadata = {
     creator: X_HANDLE,
     images: [SITE_INFO.ogImage],
   },
-  icons: {
-    icon: [
-      {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
-        sizes: "32x32",
-      },
-      {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
-        sizes: "any",
-        type: "image/svg+xml",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "https://assets.chanhdai.com/images/favicon-dark.svg",
-        sizes: "any",
-        type: "image/svg+xml",
-        media: "(prefers-color-scheme: dark)",
-      },
-    ],
-    apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
-      type: "image/png",
-      sizes: "180x180",
-    },
-  },
 }
 
 export const viewport: Viewport = {
@@ -118,8 +91,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={fontVariables} suppressHydrationWarning>
-    
-
       <body
         cz-shortcut-listen="true"
         data-new-gr-c-s-check-loaded="14.1307.0"
