@@ -25,28 +25,19 @@ export const EDUCATION: Education[] = [
     ],
   },
   {
-    id: "chuyenlytutrong",
-    school: "CPI Management & Technology ",
-    fieldOfStudy: "Diploma in Computer Science",
+    id: "cpi",
+    school: "CPI Management & Technology",
+    fieldOfStudy: "Diploma in Computer Science & Technology",
     period: {
       start: "01.2020",
       end: "01.2024",
     },
-    description: `- Student of the Specialized Computer Science Program.
-- Granted direct admission to university due to achieving 3rd Prize at the national level.
-- [Achieved numerous awards](https://baocantho.com.vn/nguyen-chanh-dai-17-tuoi-va-19-giai-thuong-a97348.html) at city and national levels, including:
-  - [3rd Prize](https://muctim.tuoitre.vn/cong-cu-ho-tro-viec-day-va-hoc-55107.htm) — National Science and Engineering Fair 2018 (ViSEF)
-  - 1st Prize — Can Tho City Science and Engineering Fair 2018
-  - Creativity Award — Binh Duong Hackathon 2017
-  - Consolation Prize — National Youth and Children’s Creativity Contest 2016
-  - [1st Prize](https://www.youtube.com/watch?v=OYgugvjqU4A) — Can Tho City Youth and Children’s Creativity Contest 2016
-  - 3rd Prize — National Young Informatics Contest 2016
-- Achieved the title of Outstanding Student from Grade 10-12.
-- Selected for the National Excellent Student Contest in Informatics for two consecutive years during high school.
-- Honored on the school’s “Hall of Fame” for academic achievements.
-- Developed a feature using Node.js and Pandoc to recognize multiple-choice questions from .docx files and upload them to an [online quiz platform](https://youtu.be/QjR99wdmTyo) I created.
-- Developed websites based on Laravel framework.
-- Built websites with PHP and MySQL, following the MVC architecture.`,
-    skills: ["Java", "C#", "React", "Node.js", "Next.js", "MySQL", "SQL"],
+    description: `- Completed a four-year Diploma in Computer Science & Technology with a strong foundation in software development and computer engineering.
+- Studied core computer science subjects including Data Structures & Algorithms, Object-Oriented Programming (Java), Database Management Systems (SQL/MySQL), Operating Systems, Computer Networks, Software Engineering, and Computer Architecture.
+- Gained practical experience in Web Design & Development using HTML, CSS, JavaScript, PHP, and Laravel.
+- Built academic projects using Java, C, C++, Python, PHP, and MySQL while following software development best practices.
+- Developed problem-solving, debugging, database design, and object-oriented programming skills through hands-on laboratory work and team projects.
+- Completed industrial training and project work focused on real-world software development practices.`,
+    skills: ["Java", "C", "C++", "Python", "PHP", "Laravel", "MySQL", "SQL"],
   },
 ]
