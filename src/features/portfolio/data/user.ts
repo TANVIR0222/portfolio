@@ -25,12 +25,12 @@ export const USER: User = {
       website: "https://www.sparktech.agency",
       experienceId: "sparktech",
     },
-    // {
-    //   title: "Founder",
-    //   company: "Quaric",
-    //   website: "https://quaric.com",
-    //   experienceId: "quaric",
-    // },
+    {
+      title: "jsonplayground",
+      company: "jsonplayground",
+      website: "https://jsonplayground.tanvirislam.dev/",
+      // experienceId: "quaric",
+    },
   ],
   about: `I’m Tanvir Islam (call me Tanvir) — a Mobile App Developer with 1+ years of experience. Published 3 mobile apps on the Google Play Store and Apple App Store, serving 30+ paid users with daily active usage..
 
