@@ -26,7 +26,7 @@ export const USER: User = {
       experienceId: "sparktech",
     },
     {
-      title: "jsonplayground",
+      title: "Founder",
       company: "jsonplayground",
       website: "https://jsonplayground.tanvirislam.dev/",
       // experienceId: "quaric",
