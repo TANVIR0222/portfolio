@@ -27,7 +27,7 @@ export const USER: User = {
     },
     {
       title: "Founder",
-      company: "jsonplayground",
+      company: "fluxjson",
       website: "https://jsonplayground.tanvirislam.dev/",
       // experienceId: "quaric",
     },
